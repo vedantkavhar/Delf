@@ -1,0 +1,47 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-text {
+    margin: 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    background-color: #1da1f2;
+  }
+  
+  .social-icon-link {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  
+  /* Font Awesome icons */
+  .fa-facebook:hover {
+    color: #1877f2; /* Facebook blue */
+  }
+  
+  .fa-twitter:hover {
+    color: #1da1f2; /* Twitter blue */
+  }
+  
+  .fa-instagram:hover {
+    color: #c13584; /* Instagram pink */
+  }
+
+  

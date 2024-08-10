@@ -1,0 +1,257 @@
+
+
+/* About us page CSS Start */
+.app-name {
+    text-decoration: none;
+    color: red;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+.about-profile-container {
+    margin: 40px auto 0px;
+    text-align: center;
+  }
+  
+  .about-profile-button {
+    background-color: var(--orange);
+    color: var(--light-black);
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .about-profile-button:hover {
+    background-color: var(--dark-green);
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 5px auto 0px;
+    height: fit-content;
+    width: fit-content;
+  }
+  .about-container .about-left {
+    padding-left: 10px;
+    min-width: 400px;
+    display: block;
+  }
+  .about-container .about-left h1 {
+    font-size: 3.5rem;
+  }
+  .about-container .about-left h1 span {
+    background-color: var(--orange);
+    padding: 0 10px;
+    border-radius: 15px;
+    color: var(--white);
+  }
+  .about-container .about-left h4 {
+    font-size: 25px;
+    padding-top: 5px;
+    font-style: italic;
+  }
+  .about-container .about-left h4 span {
+    color: var(--dark-orange);
+  }
+  .about-container .about-right {
+    padding-left: 20px;
+    display: block;
+  }
+  .about-container .about-right img {
+    width: 300px;
+    padding-right: 70px;
+  }
+  .about-left h1{
+    margin: 20px;
+  }
+  /* About us page CSS End */
+  /* Profile Class page CSS Start */
+.profile-class-container {
+  height: max-content;
+  margin-bottom: 95px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.profile-container {
+  width: fit-content;
+  padding: 20px 10px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.71);
+  background: #fff;
+}
+.profile-title,
+.repo-title {
+  font-size: 28px;
+  line-height: 1.1;
+  justify-content: center;
+  text-align: center;
+  color: var(--text-color);
+  overflow-y: hidden;
+}
+.repo-title {
+  margin-bottom: 30px;
+}
+.repo-container {
+  height: 100%;
+  min-width: 300px;
+  width: fit-content;
+  padding: 20px 10px;
+  margin: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.71);
+  background: #fff;
+}
+
+.repo-title span {
+  color: var(--dark-orange);
+}
+
+/* Profile Class page CSS End */
+
+/* Profile User Class page CSS Start */
+.profile-user-card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.profile-user-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  vertical-align: middle;
+  border-style: none;
+  cursor: pointer;
+}
+.profile-user-img:hover {
+  transform: scale(1.02);
+}
+.profile-user-bio {
+  font-size: 16px;
+  text-align: center;
+  color: #575757;
+  padding-top: 20px;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/* Profile User Class page CSS End */
+
+/* ProfileRepo Class page CSS Start */
+.profile-repo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.71);
+  background: #fff;
+  font-size: .9rem;
+  height: 270px;
+}
+
+.profile-repo-container h1 {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.71);
+  background: #fafafa;
+  margin: 10px 50px 0px;
+}
+
+.profile-repo-container h1 a:hover {
+  transform: scale(1.02);
+  color: var(--dark-orange);
+}
+
+.profile-repo-container .repo-des {
+  margin: 15px 40px;
+  margin-top: 40px;
+  color: #787878;
+}
+.profile-repo-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  color: #282828;
+  font-size: 0.9rem;
+}
+.profile-repo-items h3:hover{
+  transform: scale(1.02);
+  color: var(--dark-orange);
+}
+.profile-repo-items h3 span {
+  padding-left: 5px;
+}
+/* ProfileRepo Class page CSS End */
+
+/* Social Profile Class page CSS Start */
+.social-media-container {
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+
+.icon-button {
+  width: inherit;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.icon-button i {
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.4rem;
+  height: 2.6rem;
+  width: 2.6rem;
+  line-height: 3rem;
+  text-align: center;
+  user-select: none;
+  margin: 0 5px 10px;
+  overflow-y: hidden;
+}
+.icon-button i:hover{
+  transform: scale(1.02);
+}
+.linkedin i {
+  background-color: #0a66c2;
+}
+
+.twitter i {
+  background-color: #00acee;
+}
+.github i {
+  background-color: #333;
+}
+
+.leetcode i {
+  background-color: #323232;
+}
+
+.email i {
+  background-color: #ea4335;
+}
+
+.codechef i{
+  background-color: #4a4a4ad6;
+}
+/* Social Profile Class page CSS End */
